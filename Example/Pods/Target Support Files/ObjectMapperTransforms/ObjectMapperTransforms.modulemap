@@ -1,0 +1,6 @@
+framework module ObjectMapperTransforms {
+  umbrella header "ObjectMapperTransforms-umbrella.h"
+
+  export *
+  module * { export * }
+}

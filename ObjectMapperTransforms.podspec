@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ObjectMapperTransforms"
-  s.version      = "2.0.3"
+  s.version      = "3.0"
   s.summary      = "ObjectMapperTransforms - Any To Any(String|Int|Double|Bool) Transform"
   s.homepage     = "http://futao.me/"
   s.license      = 'MIT'
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
   s.pod_target_xcconfig = {
-    'SWIFT_VERSION' => '3.0',
+    'SWIFT_VERSION' => '5.0',
   }
   
   s.frameworks  = "Foundation"
